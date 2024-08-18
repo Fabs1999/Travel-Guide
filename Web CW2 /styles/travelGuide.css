@@ -1,0 +1,197 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    line-height: 1.8;
+    letter-spacing: 0.0625em;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    font-size: 16px;
+    line-height: 1.6;
+    background-color: rgb(240, 240, 240);
+    color: hsl(210, 25%, 35%);
+}
+
+.pageheader {
+    background-color: rgb(51, 51, 51);
+    color: white;
+    text-align: center;
+    padding: 1.5rem 0;
+    margin-bottom: 1rem;
+}
+
+#primarynav a,
+#mainnav a {
+    text-decoration: none;
+    color: white;
+    padding: 0.5rem 1rem;
+}
+
+#primarynav a:hover,
+#mainnav a:hover {
+    color: orangered;
+}
+
+#primarynav,
+#mainnav {
+    background-color: rgb(36, 36, 36);
+    text-align: center;
+    padding: 1rem 0;
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: center;
+}
+
+#primarynav ul,
+#mainnav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    gap: 10px;
+}
+
+#primarynav li,
+#mainnav li {
+    display: inline-block;
+}
+
+#primarynav li:last-child,
+#mainnav li:last-child {
+    margin-right: 0;
+}
+
+#secondaryNav {
+    background-color: rgb(102, 102, 102);
+    text-align: center;
+    padding: 0.5rem 0;
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: center;
+}
+
+#secondaryNav a {
+    text-decoration: none;
+    color: white;
+    padding: 0.5rem 1rem;
+}
+
+#secondaryNav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    gap: 10px;
+}
+
+#secondaryNav li {
+    display: inline-block;
+}
+
+#secondarynav li:last-child {
+    margin-right: 0;
+}
+
+#secondaryNav a:hover {
+    color: orangered;
+}
+
+#content {
+    width: 60%;
+    margin: 0 auto;
+    padding: 1rem;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.TransportSevilla,
+.TransportToulon,
+.transportNice,
+.pageSection.tips {
+    margin-bottom: 2rem;
+}
+
+.TransportSevilla h3,
+.TransportToulon h3,
+.transportNice h3,
+.pageSection.tips h3 {
+    color: brown;
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.TransportSevilla p,
+.TransportToulon p,
+.transportNice p,
+.pageSection.tips p {
+    margin-bottom: 1rem;
+}
+
+.TransportSevilla img,
+.TransportToulon img,
+.transportNice img,
+.pageSection.tips img {
+    margin-bottom: 0.5rem;
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+.pageSection.tips {
+    background-color: rgb(249, 249, 249);
+    padding: 1rem;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.pageSection.tips h3 {
+    color: brown;
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
+}
+
+.pageSection.tips ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.pageSection.tips li {
+    margin-bottom: 0.5rem;
+}
+
+.pageSection.tips a {
+    color: darkslategrey;
+    text-decoration: none;
+}
+
+.pageSection.tips a:hover {
+    color: orangered;
+}
+
+footer {
+    background-color: rgb(211, 211, 211);
+    color: blue;
+    text-align: center;
+    padding: 1.5rem 0;
+    margin-bottom: 1rem;
+}
+
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 1.2em;
+}
+
+footer ul {
+    display: block;
+    list-style-type: square;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 1.2em;
+}
